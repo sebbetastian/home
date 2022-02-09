@@ -20,5 +20,3 @@ if(username.toLowerCase() === 'name' && pw === 'password') {
 }   else {
     message.innerHTML = 'find the password!';
 }
-
-
