@@ -1,3 +1,13 @@
+var dT = (function disTime() {
+    var today = new Date();
+    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    var time = today.getHours() + ":" + today.getMinutes();
+    var dateTime = date+' '+time;
+    
+    const displayTime = document.getElementById('timeDate');
+    displayTime.textContent = 'Time & Date: ' + dateTime;
+}())
+
 const message = document.getElementById('message');
 const param = new URLSearchParams(window.location.search);
 const username = param.get('username');
@@ -11,12 +21,4 @@ if(username.toLowerCase() === 'name' && pw === 'password') {
     message.innerHTML = 'find the password!';
 }
 
-var dT = (function disTime() {
-    var today = new Date();
-    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-    var time = today.getHours() + ":" + today.getMinutes();
-    var dateTime = date+' '+time;
-    
-    const displayTime = document.getElementById('timeDate');
-    displayTime.textContent = 'Time & Date: ' + dateTime;
-}())
+
