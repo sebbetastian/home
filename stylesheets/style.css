@@ -158,6 +158,11 @@ nav {
     margin-bottom: 2.5em;
 }
 
+#message {
+   font-size: 1.3rem;
+   margin: 2em;
+}
+
 /*loginpage*/
 
 .formbox {
@@ -281,10 +286,6 @@ th, td {
     margin-top: 2rem;
     line-height: 1.4em;
     margin-bottom: 2em;
-}
-
-#message {
-    font-size: 1.3rem;
 }
 
 @media only screen and (max-width: 1000px) {
