@@ -254,6 +254,8 @@ th, td {
     max-width: 90%;
     margin-bottom: 1em;
     border: 1px solid white;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
 }
 
 .imgcap {
