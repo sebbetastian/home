@@ -235,11 +235,12 @@ th, td {
 }
 
 .profile-pic {
-    height: 42.5px;
-    width: 42.5px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     margin-right: 20px;margin-left: 10px;
     border: 1px solid white;
+    aspect-ratio: 1 / 1;
 }
 
 .box p {
