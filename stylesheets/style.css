@@ -347,6 +347,10 @@ th, td {
         grid-column: span 2;
     }
 
+    .box2, .box3 {
+        display: none;
+    }
+
     .imgbox img {
         min-width: 15em;
     }
