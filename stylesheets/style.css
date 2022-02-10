@@ -245,13 +245,7 @@ th, td {
 
 .box p {
     text-transform: lowercase;
-    margin-left: 1em;
-    max-width: 95%;
-    margin-bottom: 2em;
-}
-
-.box h4 {
-    margin-left: 1em;
+    margin: 0 auto 2em;
     max-width: 95%;
 }
 
