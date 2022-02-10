@@ -257,11 +257,9 @@ th, td {
 
 .postimg {
     width: 100%;
-    max-width: 300px;
-    margin-top: 1em;
+    max-width: 90%;
     margin-bottom: 1em;
     border: 1px solid white;
-    aspect-ratio: 2 / 2;
 }
 
 .imgcap {
