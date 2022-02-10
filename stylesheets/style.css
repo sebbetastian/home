@@ -247,6 +247,7 @@ th, td {
     text-transform: lowercase;
     margin-left: 1em;
     max-width: 95%;
+    margin-bottom: 2em;
 }
 
 .box h4 {
@@ -265,7 +266,6 @@ th, td {
 
 .imgcap {
     text-decoration: underline;
-    margin-bottom: 2em;
 }
 
 .box {
