@@ -181,30 +181,6 @@ form input, form button {
     width: 227px; height: 23px;
 }
 
-/*tablepage*/
-
-.table {
-    margin: 0;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    table-layout: fixed;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 80vw; width: fit-content;
-}
-
-
-th, td {
-    background-color: lightgray;
-    padding: 20px;
-    font-size: 1.3rem;
-    text-align: center;
-    color: black;
-    width: fit-content;
-}
-
 /*grid mainpage*/
 /*Class used for every item that spans*/
 
