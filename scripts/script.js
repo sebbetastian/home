@@ -1,4 +1,4 @@
-const message = document.getElementById('message');
+const message2 = document.getElementById('message2');
 const today = new Date();
 const hourNow = today.getHours();
 var greeting;
@@ -15,4 +15,4 @@ if (hourNow > 18) {
     greeting = 'welcome.'
 }
 
-message.innerHTML = (greeting);
+message2.innerHTML = (greeting);
