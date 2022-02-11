@@ -131,6 +131,7 @@ nav {
     color: white;
     height: 4rem; width: 20%;
     border-radius: 5px;
+    margin: 0 0.2em;
     background-color: #2e8b57;
     border: 1px solid white;
 }
