@@ -236,14 +236,19 @@ form input, form button {
 .postimg {
     width: 100%;
     max-width: 90%;
-    margin-bottom: 1em;
     border: 1px solid white;
     aspect-ratio: 16 / 9;
     object-fit: cover;
+    margin: 0 0 2em;
 }
 
 .imgcap {
     text-decoration: underline;
+}
+
+.imgcap:hover, .imgcap:active {
+    transition: opacity 0.3s;
+    opacity: 0.75;
 }
 
 .box {
@@ -253,6 +258,7 @@ form input, form button {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #28774a;
     text-align: center; 
+    margin-bottom: 1em;
 }
 
 .box4 {
