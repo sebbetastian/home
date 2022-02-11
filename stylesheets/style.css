@@ -130,7 +130,7 @@ nav {
     font-size: 1.3rem;
     color: white;
     height: 4rem; width: 23%;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 0 0.2em;
     background-color: #2e8b57;
     border: 1px solid white;
@@ -175,6 +175,7 @@ nav {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #2e8b57;
     padding: 50px;
+    border-radius: 10px;
 }
 
 form input, form button {
@@ -201,10 +202,6 @@ form input, form button {
     align-items: center;
     justify-content: flex-start;
     border-bottom: 1px solid white;
-}
-
-.gridboxtop h3 {
-    justify-self: flex-end;
 }
 
 .username {
@@ -234,8 +231,7 @@ form input, form button {
 }
 
 .postimg {
-    width: 100%;
-    max-width: 90%;
+    inline-size: 90%;
     border: 1px solid white;
     aspect-ratio: 16 / 9;
     object-fit: cover;
@@ -259,6 +255,7 @@ form input, form button {
     background-color: #28774a;
     text-align: center; 
     margin-bottom: 1em;
+    border-radius: 10px;
 }
 
 .box4 {
@@ -292,6 +289,7 @@ form input, form button {
     padding: 2rem;
     background: #28774a;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
 }
  
 .imgbox img {
@@ -335,6 +333,7 @@ a {
     transition: 0.5s;
     cursor: pointer;
     font-size: 2em;
+    border-radius: 10px;
 }
 
 .message:hover,.message1:hover, .message:active, .message1:active {
