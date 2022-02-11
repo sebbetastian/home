@@ -142,6 +142,10 @@ nav {
     text-decoration: underline;
 }
 
+.underhero {
+    margin-bottom: 2rem;
+}
+
 /*class for underline: USED ONCE*/
 
 .underline {
@@ -149,13 +153,13 @@ nav {
     background-color: white;
     border-radius: 2px;
     margin: auto;
-    margin-top: 38rem;
     margin-bottom: 2.5em;
 }
 
 #message {
    font-size: 1.3rem;
    margin: 2em;
+   margin: 38rem 0 2rem;
 }
 
 /*loginpage*/
