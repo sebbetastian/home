@@ -200,6 +200,7 @@ form input, form button {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    border-bottom: 1px solid white;
 }
 
 .gridboxtop h3 {
