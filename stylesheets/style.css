@@ -271,8 +271,8 @@ form input, form button {
     overscroll-behavior-inline: contain;
     padding: 0 2rem 2rem;
     scroll-snap-type: inline mandatory;
-    scroll-padding-inline-start: 0.2rem;
-    scroll-padding-inline-end: 0.2rem;
+    scroll-padding-inline-start: 0.25rem;
+    scroll-padding-inline-end: 0.25rem;
 }
 
 .imgscroller > * {
