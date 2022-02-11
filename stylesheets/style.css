@@ -126,17 +126,17 @@ nav {
     margin-top: 11.5rem;
 }
 
-.buttons button {
+.buttons .herobutton {
     font-size: 1.3rem;
     color: white;
-    height: 4rem; width: 22%;
+    height: 4rem; width: 23%;
     border-radius: 5px;
     margin: 0 0.2em;
     background-color: #2e8b57;
     border: 1px solid white;
 }
 
-.buttons button:hover {
+.buttons .herobutton:hover {
     transition: opacity 0.3s;
     opacity: 0.75;
     text-decoration: underline;
