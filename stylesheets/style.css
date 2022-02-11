@@ -1,7 +1,7 @@
 body {
     font-size: 1em;
     color: white;
-    background-color: #2e8b57;
+    background-color: rgb(68, 68, 68);
     text-align: center;
     font-family: 'Outfit', sans-serif;
 }
@@ -297,8 +297,56 @@ form input, form button {
     margin-bottom: 2em;
 }
 
+/*Goodday page*/
+
+.gooddaypage {
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(68, 68, 68);
+    text-transform: uppercase;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.message, .message1 {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 1em;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.message:hover,.message1:hover, .message:active, .message1:active {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(78, 78, 78);
+    transition: 0.5s;
+    padding: 1.1em;
+}
+
+@media only screen and (max-width: 470px) {
+    .message {
+        padding: 0.5em;
+    }
+
+    .message1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .message:hover,.message1:hover, .message:active, .message1:active {
+        padding: 0.6em;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
-    .buttons button {
+    .button button {
         height: 4rem; width: 25%;
     }
 
