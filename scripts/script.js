@@ -8,8 +8,6 @@ if (hourNow > 18) {
 } else if (hourNow > 12) {
     greeting = 'good afternoon';
 } else if (hourNow > 0) {
-    greeting = 'go to bed!';
-} else if (hourNow > 4) {
     greeting = 'good morning';
 } else {
     greeting = 'welcome.'
