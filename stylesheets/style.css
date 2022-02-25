@@ -26,21 +26,21 @@ nav {
     position: fixed;
     top: 0; left: 0; right: 0;
     background-color: #2e8b57;
-    border-bottom: 1px solid white;
     z-index: 1;
 }
 
 .nav_li{
     display: block;
     list-style: none;
-    background-color: #2e8b57;
-    border-bottom: 1px solid white;
     position: absolute;
     width: 100%;
     top: 78%;left: 0;
     transform: scale(1, 0);transform-origin: top;transition: transform 325ms ease-in-out;
     list-style: none;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
+    padding-top: 1.5em;
+    background-color: #28774a;
+    border-bottom: 1px solid white;
 }
 
 
@@ -71,10 +71,16 @@ nav {
 }
 
 .li_toggle_label {
-    margin-left: 40px;
+    padding: 0 2.2em 0 2em;
     height: 100%;
     display: flex;
     align-items: center;
+    transition: 0.3s;
+}
+
+.li_toggle_label:hover {
+    background-color: #28774a;
+    cursor: pointer;
 }
 
 .li_toggle_label span,
@@ -107,6 +113,10 @@ nav {
 
 .nav_li_toggle:checked ~ .nav_li li  {
     opacity: 1;
+}
+
+.nav_li_toggle:checked ~ .li_toggle_label {
+    background-color: #28774a;
 }
 
 /*HERO mainpage*/
@@ -354,6 +364,10 @@ a {
 }
 
 @media only screen and (max-width: 1000px) {
+    .li_toggle_label:hover {
+        background-color: #2e8b57;
+    }
+
     .button button {
         height: 4rem; width: 25%;
     }
