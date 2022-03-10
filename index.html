@@ -11,19 +11,28 @@
     <script type="text/javascript" src="scripts/login.js" defer></script>
     <title>Home</title>
 </head>
-<nav id="navbar">
-    <div class="nav_img">
-        <a href="index.html"><img src="photos/3736370-2.png" alt="logo"></a>
-    </div>
-    <input type="checkbox" class=nav_li_toggle id=nav_li_toggle>
-    <ul class="nav_li">
-        <a href="index.html" class="nav_home"><li>home</li></a>
-        <a href="goodday.html"><li>more</li></a>
-        <a href="contact.html"><li>login</li></a>
-    </ul>
-    <label for="nav_li_toggle" class="li_toggle_label">
-        <span></span>
-    </label>
+<nav id="navbar" class="bgmaincolor">
+  <div class="nav-desktop">
+      <a href="index.html" class="nav-a nav-text"><div class="mob-nav-text">home</div></a>
+      <a href="index.html" class="nav-a nav-text"><div class="mob-nav-text">info</div></a>
+      <a href="goodday.html" class="nav-a nav-text"><div class="mob-nav-text">more</div></a>
+      <a href="contact.html" class="nav-a nav-text"><div class="mob-nav-text">login</div></a>
+      <a href="goodday.html" class="nav-a nav-text"><div class="mob-nav-text">blog</div></a>
+      <label for="search-toggle" class="search-toggle-label"></label>
+  </div>
+  <input type="checkbox" class="nav_li_toggle" id="nav_li_toggle">
+  <div class="nav_li bgmaincolor1 whiteborderbottom">
+      <a href="index.html" class="nav-a nav-text"><div class="mob-nav-text">home</div></a>
+      <a href="index.html" class="nav-a nav-text"><div class="mob-nav-text">info</div></a>
+      <a href="goodday.html" class="nav-a nav-text"><div class="mob-nav-text">more</div></a>
+      <a href="contact.html" class="nav-a nav-text"><div class="mob-nav-text">login</div></a>
+      <a href="goodday.html" class="nav-a nav-text"><div class="mob-nav-text">blog</div></a>
+      <p class="search-bar nav-text"><input type="text" class="nav-input"> <button type="submit" class="submit-button nav-text">search</button></p>
+      <label for="nav_li_toggle" class="close-nav-label"></label>
+  </div><label for="nav_li_toggle" class="li_toggle_label"></label>
+  <input type="checkbox" class="search-toggle" id="search-toggle">
+  <div class="toggled-search"><input type="text" class="desktop-input"></div>
+  <div class="nav_img"><a href="./app"><img src="photos/smile-beam.png" alt="logo"></a></div>
 </nav>
 <body>
     <div class="heroimg">
