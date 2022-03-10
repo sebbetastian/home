@@ -188,34 +188,10 @@ body {
     display: none;
   }
   
-  .clock {
-    margin: 1em 0em 1em;
-  }
-  
-  .contact-list {
-    padding: 0;
-    list-style: none;
-  }
-  
-  .submit-button0 {
-    background-color: #2e8b57;
-    font-size: 1em;
-    color: white;
-    padding: 4px;
-    border: none;
-    transition: 0.3s;
-    margin-left: 4px;
-  }
-  
-  .submit-button0:hover {
-    background-color: #28774a;
-  }
-  
   .input-field {
     font-size: 1em;
     margin-bottom: 1em;
   }
-  
   
   .toggled-search {
     grid-row: 1;
@@ -371,7 +347,7 @@ body {
     border-radius: 10px;
     margin: 0 0.2em;
     background-color: #2e8b57;
-    border: 1px solid white;
+    border: none;
 }
 
 .buttons .herobutton:hover {
