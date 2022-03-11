@@ -41,6 +41,10 @@ body {
     color: white;
     text-transform: uppercase;
   }
+
+  #preload {
+      display: none;
+  }
   
   /*NAVIGATION 0.1*/
   
