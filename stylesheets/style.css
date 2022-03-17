@@ -78,7 +78,6 @@ body {
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 100;
-    border-top: 1px solid #2e8b57;
   }
   
   .search-bar {
@@ -207,13 +206,13 @@ body {
       justify-content: flex-start;
       align-items: center;
       width: min-content;
+      height: 100%;
     }
   
     .nav-a {
       text-decoration: none;
-      width: 4em;
-      height: 100%;
-      padding: 0.95em 0.6em;
+      width: 3.5em;
+      padding: 17px 0.5em;
       text-transform: uppercase;
     }
   
@@ -442,7 +441,7 @@ form input, form button {
 }
 
 .postimg {
-    inline-size: 90%;
+    inline-size: 95%;
     border: 1px solid white;
     aspect-ratio: 16 / 9;
     object-fit: cover;
